@@ -1,0 +1,154 @@
+.wordart {
+    font-family: Arial, sans-serif;
+    font-size: 150px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wordart.blues .text {
+    font-family: Impact, sans-serif;
+    color: #24c0fd;
+    -webkit-text-stroke: 0.01em #0000aa;
+    filter: progid:DXImageTransform.Microsoft.Glow(Color=#0000aa,Strength=1);
+    text-shadow: 0.13em -0.13em 0px #0000aa;
+    letter-spacing: -0.05em;
+}
+
+#header {
+    background:-webkit-liner-gradient(left, lime, white, #99ff00);
+    background:-o-linear-gradient(left, lime,white, #99ff00);
+    background:-moz-linear-gradient(left, lime, white, #99ff00);
+    background: linear-gradient(to right, lime, white, #99ff00);
+    vertical-align:middle;
+    position:top;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+
+body {
+    animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* For Fx 3.6 to 15 */
+        background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* Standard syntax (must be last) */
+    }
+    100% {
+        background: -webkit-linear-gradient(left, violet, indigo, blue, green, yellow, orange, red); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(left, violet, indigo, blue, green, yellow, orange, red); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(left, violet, indigo, blue, green, yellow, orange, red); /* For Fx 3.6 to 15 */
+        background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red); /* Standard syntax (must be last) */
+    }
+}
+
+h3 { 
+    text-align: center;
+    font-size:200%;
+    color:yellow;
+    font-family: "Comic Sans MS";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+h2 { 
+    text-align: center;
+    font-size:300%;
+    color:red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Comic Sans MS";
+}
+
+h4 { 
+    text-align: center;
+    font-size:150%;
+    color:magenta;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Comic Sans MS";
+}
+
+#footer, #footer_text {
+    background:-webkit-liner-gradient(left, lime, white);
+    background:-o-linear-gradient(left, lime,white);
+    background:-moz-linear-gradient(left, lime, white);
+    background: linear-gradient(to right, lime, white);
+    text-align: center;
+    color:red;
+    color: 000000;
+    font-family: "Comic Sans MS";
+    vertical-align:bottom;
+    position:top;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #f1f1f1;
+    position: absolute; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    border: 1px solid #555;
+    float:left;
+    font-family:"Comic Sans MS";
+    font-size:180%;
+    border-radius: 12px;
+    position: fixed;
+}
+
+
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #555;
+    background:-webkit-liner-gradient(bottom, purple, lightblue, purple);
+    background:-o-linear-gradient(bottom, purple, lightblue, purple);
+    background:-moz-linear-gradient(bottom, purple, lightblue, purple);
+    background: linear-gradient(to top, purple, lightblue, purple);
+}
+
+li a:hover {
+    background-color:black;
+    transition-duration:0.4s;
+    background-color: black;
+    color:greenyellow;
+}
+
+.contact {
+    text-align: center;
+    font-size:150%;
+    color:greenyellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Comic Sans MS";
+
+}
+
+.contact:hover {
+    transition-duration:0.4s;
+    color:pink;
+}
+
+.subtitle {
+    text-align: center;
+    font-size:200%;
+    color:firebrick;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-family: "Comic Sans MS";
+}
