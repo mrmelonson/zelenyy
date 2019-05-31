@@ -61,7 +61,7 @@
     -ms-transform: scaleY(2) perspective(1em) rotateX(15deg) translate3d(-19%, -14%, -0.4em);
 }
 
-.wordart.tilt .text {
+.wordart.tilt .texttilt {
     font-family: Arial, sans-serif;
     font-weight: bold;
     background: #390c0b;
@@ -81,7 +81,7 @@
     filter: progid:DXImageTransform.Microsoft.Glow(Color=#a3a3a3, Strength=1);
 }
 
-.wordart.tilt .text:before {
+.wordart.tilt .texttilt:before {
     content: attr(data-text);
     position: absolute;
     z-index: -1;
