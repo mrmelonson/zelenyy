@@ -22,10 +22,27 @@ body, html {
     background-size: cover;
 }
 
+.parallax-1 {
+    /* The image used */
+    background-image: url('code.png');
+
+    /* Set a specific height */
+    height: 200px;
+
+    /* Create the parallax scrolling effect */
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .content {
-    height: 2000px;
+    height: fit-content;
     background-color: rgb(27, 33, 56);
-    font-size: 32px
+    font-size: 32px;
+    padding-bottom: 5%;
 }
 .caption {
     position: relative;
@@ -34,7 +51,7 @@ body, html {
     width: 100%;
     text-align: center;
     color: rgb(36, 36, 36);
-    font: 100px "Lato", sans-serif
+    font: 100px "Lato", sans-serif;
 }
 
 .caption span.border {
