@@ -38,6 +38,22 @@ body, html {
     background-size: cover;
 }
 
+.parallax-2 {
+    /* The image used */
+    background-image: url('project.jpg');
+
+    /* Set a specific height */
+    height: 200px;
+
+    /* Create the parallax scrolling effect */
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .content {
     height: fit-content;
     background-color: rgb(27, 33, 56);
@@ -77,10 +93,6 @@ body, html {
     margin: 0px;
     font-size: 30px;
     padding: 0px;
-}
-
-.project-desc {
-    
 }
 
 a {
