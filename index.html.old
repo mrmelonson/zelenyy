@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Zelenyy</title>
+        <link rel="stylesheet" href="zcss.css">
+    </head>
+    <body>
+        <div class="parallax">
+            <div class="caption">
+                <span class="border">Zelenyy</span>
+            </div>
+        </div>
+
+        <div class="content">
+            <h3 class="header">Description</h3>
+            <p class="body">Hello! I'm Zelenyy (Zel for short).<br> I am an amatur programmer from Sydney, Australia.</p>
+        </div>
+
+        <div class="parallax-1"></div>
+        <div class="content">
+            <h3 class="header">Experience</h3>
+            <p class="body">I have experience in a number of languages and packages</p>
+            <ul style="display:table; margin:0 auto;" class="body">
+                <li>Node JS</li>
+                <li>Mongo DB</li>
+                <li>Express JS</li>
+                <li>C#</li>
+                <li>C/C++</li>
+                <li>R</li>
+                <li>Python</li>
+                <li>Assembly</li>
+            </ul>
+            <p class="body">I also have experience in CAD, Woodworking, Web design and Bash</p>
+            <br>
+            <div class="parallax-2"></div>
+            <h3 class="header">Projects</h3>
+            <p class="body">A list of projects i have completed/am working on</p>
+            <a href="https://github.com/mrmelonson/SCJS">SCJS</a>
+            <p class="project-desc">Hello World</p>
+        </div>
+
+    </body>
+</html>
