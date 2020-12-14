@@ -1,0 +1,33 @@
+.card {
+    background: #367bb3;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.title_text {
+    color: white;
+    font-family: rubik;
+    font-size: 50pt;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.subtext {
+    color: white;
+    font-family: rubik;
+    font-size: 20pt;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #92b359;
+}
+
+@font-face {
+    font-family: rubik;
+    src: url(./fonts/Rubik-Regular.ttf);
+}
+
