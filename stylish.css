@@ -11,6 +11,7 @@
     padding-top: 0px;
     padding-bottom: 0px;
     margin: 0px;
+    margin-left: 1%;
 }
 
 .subtext {
@@ -20,10 +21,12 @@
     padding-top: 0px;
     padding-bottom: 0px;
     margin: 0px;
+    margin-left: 1%;
 }
 
 body {
     background-color: #92b359;
+    background-image: url(./img/grass.png);
 }
 
 @font-face {
